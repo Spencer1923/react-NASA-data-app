@@ -15,7 +15,7 @@ function handleToggleModal(){
 }
 
 useEffect(()=>{
-  console.log("🧪 VITE_NASA_API_KEY:", import.meta.env.VITE_NASA_API_KEY);
+  //console.log("🧪 VITE_NASA_API_KEY:", import.meta.env.VITE_NASA_API_KEY);
   async function fetchAPIDATA(){
       const NASA_KEY=import.meta.env.VITE_NASA_API_KEY;
     const url='https://api.nasa.gov/planetary/apod'+`?api_key=${NASA_KEY}`;
